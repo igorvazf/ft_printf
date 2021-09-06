@@ -17,7 +17,7 @@ static char	*ft_strdup_verification(const char *s)
 {
 	if (!s)
 		return (NULL);
-	return(ft_strdup(s));
+	return (ft_strdup(s));
 }
 
 void	ft_convert_s(t_format *fmt, t_holder *holder)
