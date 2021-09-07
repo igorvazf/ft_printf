@@ -65,11 +65,6 @@ char	*ft_itoa_base(unsigned long nbr, char *base)
 		return (NULL);
 	len_base = ft_strlen(base);
 	i = 0;
-	if (nbr < 0)
-	{
-		nbr *= -1;
-		str[i++] = '-';
-	}
 	while (nbr)
 	{
 		str[i] = base[nbr % len_base];
