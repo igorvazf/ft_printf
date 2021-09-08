@@ -39,11 +39,6 @@ static size_t	nb_len(unsigned long nbr)
 	len = 0;
 	if (nbr == 0)
 		len = 1;
-	if (nbr < 0)
-	{
-		nbr *= -1;
-		len ++;
-	}
 	while (nbr > 0)
 	{
 		nbr = nbr / 10;
